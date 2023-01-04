@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Carousel Pictures</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <style>
+            .carousel-inner > .item > img {
+                width: 60%;
+                margin: auto;
+                height: 100vh;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <!--Carousel Indicators-->
+                <ol class="carousel-indicators">
+                    <li
+                        data-target="#carousel"
+                        data-slide-to="0"
+                        class="active"
+                    ></li>
+                    <li data-target="#carousel" data-slide-to="0"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    <li data-target="#carousel" data-slide-to="3"></li>
+                    <li data-target="#carousel" data-slide-to="4"></li>
+                    <li data-target="#carousel" data-slide-to="5"></li>
+                    <li data-target="#carousel" data-slide-to="6"></li>
+                    <li data-target="#carousel" data-slide-to="7"></li>
+                </ol>
+
+                <!--Wrapper for Slides-->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="Rapunzel.JPG" width="450" height="380" />
+                        <div class="carousel-caption">
+                            <h3><em>Rapunzel</em></h3>
+                            <p><strong>
+                                International Sand Sculpture Festival-Rapunzel</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="Mermaid.jpg" width="450" height="380" />
+                        <div class="carousel-caption">
+                            <h3><em>Mermaid</em></h3>
+                            <p><strong>Sand Sculpture Festival-Mermaid</strong></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="Mother Goose.jpg" width="450" height="380" />
+                        <div class="carousel-caption">
+                            <h3>Mother Goose</h3>
+                            <p><strong>
+                                International Sand Sculpture Festival-Mother
+                                Goose</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img
+                            src="Three little pigs.jpg"
+                            width="450"
+                            height="380"
+                        />
+                        <div class="carousel-caption">
+                            <h3><em>Three little pigs</em></h3>
+                            <p><strong>
+                                International Sand Sculpture Festival-Three
+                                little pigs</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="Humpty Dumpty.jpg" width="450" height="380" />
+                        <div class="carousel-caption">
+                            <h3><em>Humpty Dumpty</em></h3>
+                            <p>
+                                <strong> Sand Sculpture Festival-Humpty
+                                Dumpty</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img
+                            src="Princess and the Pea.jpg"
+                            width="450"
+                            height="380"
+                        />
+                        <div class="carousel-caption">
+                            <h3><em>Princess and the Pea</em></h3>
+                            <p>
+                                <strong>Sand Sculpture Festival-Princess
+                                and the Pea</strong> 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img
+                            src="Gingerbread House.JPG"
+                            width="450"
+                            height="380"
+                        />
+                        <div class="carousel-caption">
+                            <h3><em>Gingerbread House</em></h3>
+                            <p>
+                                <strong> Sand Sculpture
+                                Festival-Gingerbread House</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="Boot-house.jpg" width="450" height="380" />
+                        <div class="carousel-caption">
+                            <h3><em>Boot-house</em></h3>
+                            <p>
+                                <strong>Sand Sculpture Festival-Boot-house</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Left and Rigth Control Links-->
+                <a
+                    class="left carousel-control"
+                    href="#carousel"
+                    role="button"
+                    data-slide="prev"
+                >
+                    <span
+                        class="glyphicon glyphicon-chevron-left"
+                        aria-hidden="true"
+                    ></span>
+                </a>
+                <a
+                    class="right carousel-control"
+                    href="#carousel"
+                    role="button"
+                    data-slide="next"
+                >
+                    <span
+                        class="glyphicon glyphicon-chevron-right"
+                        aria-hidden="true"
+                    ></span>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
